@@ -18,8 +18,8 @@ const DarkMode = () => {
     })
     return (
         <div>
-            <img onClick={() => setTheme(theme == "dark" ? "light" : "dark")} src={DarkButton} alt="" className={`w-12 cursor-pointer absolute top-7 right-5 z-10 ${theme == 'light' ? 'opacity-0' : 'opacity-100'} transition-all duration-300`}/>
-            <img onClick={() => setTheme(theme == "dark" ? "light" : "dark")} src={LightButton} alt="" className={`w-12 cursor-pointer absolute top-7 right-5 z-10 ${theme === 'dark' ? 'opacity-0' : 'opacity-100'} transition-all duration-300`}/>
+            <img onClick={() => setTheme(theme == "dark" ? "light" : "dark")} src={DarkButton} alt="" className={`w-12 cursor-pointer absolute top-7 right-5 z-10 ${theme == 'light' ? 'opacity-0' : 'opacity-100'} transition-all duration-900`}/>
+            <img onClick={() => setTheme(theme == "dark" ? "light" : "dark")} src={LightButton} alt="" className={`w-12 cursor-pointer absolute top-7 right-5 z-10 ${theme === 'dark' ? 'opacity-0' : 'opacity-100'} transition-all duration-900`}/>
         </div>
     )
 }
