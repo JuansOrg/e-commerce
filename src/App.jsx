@@ -8,6 +8,7 @@ import Banner from './components/Banner/Banner'
 import headphone from './assets/hero/headphone.png'
 import Products from './components/Products/Products'
 import watch from './assets/category/smartwatch2-removebg-preview.png'
+import Blogs from './components/Blogs/Blogs'
 
 const App = () => {
   const BannerData = [
@@ -24,8 +25,8 @@ const App = () => {
   ]
   const BannerData2 = [
     {
-        discount: '20% OFF',
-        title:'Fine Smile',
+        discount: '40% OFF',
+        title:'Happy Hours',
         date:'10 Jan to 28 Jan',
         image:watch,
         title2:'Air Solo Bass',
@@ -44,6 +45,7 @@ const App = () => {
       <Banner data={BannerData}/>
       <Products/>
       <Banner data={BannerData2}/>
+      <Blogs />
     </div>
   )
 }
